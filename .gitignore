@@ -1,0 +1,42 @@
+# Ignore o ambiente virtual
+venv/
+venv/*
+miniatura/
+miniatura/*
+# Ignore arquivos de cache do Python
+__pycache__/
+*.py[cod]
+
+# Ignore arquivos temporários
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore configurações de IDEs
+.vscode/
+.idea/
+
+# Ignore arquivos de logs
+*.log
+
+# Ignore arquivos de banco de dados
+*.sqlite3
+
+# Ignore pacotes de distribuição
+dist/
+build/
+*.egg-info/
+
+# Ignore arquivos de sistema do macOS
+.DS_Store
+
+# Ignore arquivos de sistema do Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore arquivos de Excel temporários
+~$*
+
+# Ignore arquivos criados por pip
+pip-wheel-metadata/
