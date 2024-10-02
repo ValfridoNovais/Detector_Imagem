@@ -1,13 +1,16 @@
 import cv2
+import sys
+sys.path.append("C:/Repositorios_GitHube/MeusProjetos/Detector_Imagem/miniatura/Lib/site-packages")
 import face_recognition
 import pandas as pd
 from datetime import datetime
 import openpyxl
 
 # Carregar arquivo XLS
-arquivo_xls = 'dados_acesso.xlsx'
+arquivo_xls = "C:/Repositorios_GitHube/MeusProjetos/Detector_Imagem/xls/dados_acesso.xlsx"
+#arquivo_xls = 'dados_acesso.xlsx'
 planilha_permitidos = 'PERMITIDOS'
-planilha_registro = 'REGISTRO ENTRADA'
+planilha_registro = 'ENTRADA'
 
 # Função para carregar as imagens conhecidas e seus dados
 def carregar_dados_autorizados():
